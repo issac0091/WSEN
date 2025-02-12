@@ -1,5 +1,4 @@
 let azimuth = 0
-input.calibrateCompass()
 basic.forever(function () {
     azimuth = input.compassHeading()
 })
